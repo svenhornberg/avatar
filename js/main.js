@@ -45,7 +45,7 @@ function update() {
       break;
 
     default:
-      $('#mainpic').attr('src', '/img/mann_m.png');
+      $('#mainpic').attr('src', '/img/figuren_m.jpg');
       break;
   }
   Cookies.set('outfit', 'off');
