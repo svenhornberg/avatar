@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </head>
+  <body>
+
+    <div class="columns">
+      <div class="column is-9 is-offset-1">
+        <!-- head -->
+        <div class="columns">
+          <div class="column">
+            <img src="/img/brand.svg" alt="logo">
+            <span id="logo">virtuelle Ankleide</span>
+          </div>
+        </div>
+
+        <!-- content -->
+        <div class="columns">
+
+          <!-- outfits -->
+          <div class="column is-1">
+            <div class="has-text-centered">
+              <i class="fa fa-arrow-up pfeil" aria-hidden="true"></i>
+            </div></br>
+            <div class="outfit has-text-centered">
+                <img src="/img/outfit1.jpg" onClick="outfit(1)">
+            </div><br>
+            <div class="outfit has-text-centered">
+                <img src="/img/outfit2.jpg" onClick="outfit(2)">
+            </div><br>
+            <div class="outfit has-text-centered">
+                <img src="/img/outfit3.jpg" onClick="outfit(3)">
+            </div></br>
+            <div class="outfit has-text-centered">
+                <img src="/img/outfit4.jpg" onClick="outfit(4)">
+            </div></br>
+            <div class="outfit has-text-centered">
+                <img src="/img/outfit5.jpg" onClick="outfit(5)">
+            </div></br>
+            <div class="has-text-centered">
+              <i class="fa fa-arrow-down pfeil" aria-hidden="true"></i>
+            </div>
+          </div>
+          <!-- main -->
+          <div id="maincontent" class="column is-9">
+            <div id="figur" class="has-text-centered">
+              <img id="mainpic" src="/img/figuren_m.jpg">
+            </div>
+          </br></br>
+            <div class="columns">
+              <div class="column has-text-centered">
+                  <a class="button is-large wittwhite">Komplettes Outfit kaufen</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- sidebar -->
+          <div class="column">
+            <span id="konfigurator">Konfigurator</span></br></br>
+            <div class="columns">
+              <div class="column is-half">
+                <p class="control">
+                  <a class="button is-large buttonicon"><i class="fa fa-male" aria-hidden="true"></i> Männlich</a>
+                </p>
+              </div>
+              <div class="column">
+                <p class="control">
+                  <a class="button is-large buttonicon"><i class="fa fa-female" aria-hidden="true"></i> Weiblich</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="columns">
+              <div class="column is-one-third">
+                <p class="control">
+                  <a class="button">Männlich</a>
+                </p>
+              </div>
+              <div class="column is-one-third">
+                <p class="control">
+                  <a class="button">Männlich</a>
+                </p>
+              </div>
+              <div class="column">
+                <p class="control">
+                  <a class="button">Weiblich</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      <div>
+    </div>
+  </body>
+</html>
