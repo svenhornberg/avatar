@@ -11,6 +11,6 @@ app.locals.pretty = true;
 var api = require('./api.js')
 require('./api')(app);
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Example app listening on port 3000!');
 });
