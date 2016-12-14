@@ -1,6 +1,13 @@
+body {
+  font-family: "Open Sans";
+  background-color: #fffss
+}
+
 #logo{
   font-size: 5em;
-  margin-left: 4em;
+  margin-left: 1em;
+  text-transform: uppercase;
+  vertical-align: top;
 }
 
 #maincontent {
@@ -13,6 +20,14 @@
 
 #konfigurator {
   font-size: 2.5em;
+}
+
+.rotate{
+  margin-top: 20em;
+}
+
+.rotate > img{
+  width: 5em;
 }
 
 .outfit {
@@ -34,4 +49,26 @@
 
 .pfeil {
   font-size: 3em;
+}
+
+.buyoutfit {
+  width: 70%;
+}
+
+.ownoutfit {
+  margin-left: 0px;
+  padding-left: 0px;
+  width: 97%;
+}
+
+.thanks {
+  margin-top: 10em;
+}
+
+.drag{
+
+}
+
+.ui-draggable-dragging > img {
+    box-shadow:0 0 2px #000;
 }
