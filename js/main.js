@@ -19,7 +19,7 @@ function update() {
           break;
 
         default:
-          $('#mainpic').attr('src', '/img/figuren_m_m.png');
+          $('#mainpic').attr('src', '/img/figuren_m_m.jpg');
           break;
       }
       break;
